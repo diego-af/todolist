@@ -46,7 +46,7 @@ const ButtonItem = () => {
 	return (
 		<S.ButtonItem>
 			<input
-				placeholder='Nova nota'
+				placeholder='Nova tarefa'
 				value={newNota}
 				onKeyPress={(e) => {
 					if (e.key === 'Enter') {
