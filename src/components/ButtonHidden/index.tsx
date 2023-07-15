@@ -25,10 +25,10 @@ const ButtonHidden = () => {
 
 	return (
 		<S.ButtonHiddenContent>
-			<S.ButtonHidden onClick={handleHidden}>
+			<S.ButtonHidden onClick={handleHidden} disabled={true}>
 				<span>itens concluidos</span>
 			</S.ButtonHidden>
-			<S.ButtonHidden onClick={handleHiddenDone}>
+			<S.ButtonHidden onClick={handleHiddenDone} disabled={true}>
 				<span>Itens não concluidos</span>
 			</S.ButtonHidden>
 		</S.ButtonHiddenContent>
